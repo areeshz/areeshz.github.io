@@ -5703,6 +5703,10 @@ button.bg-dark:focus {
 .mx-5 {
   margin-left: 3rem !important; }
 
+.pointer-none {
+  pointer-events: none !important;
+}
+
 .p-0 {
   padding: 0 !important; }
 
@@ -7307,7 +7311,7 @@ h3 {
   position: relative;
   display: block;
   max-width: 25rem;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   overflow: hidden; }
   .portfolio .portfolio-item .portfolio-item-caption {
     position: absolute;
