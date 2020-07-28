@@ -392,6 +392,10 @@ mark,
   height: auto;
 }
 
+.icon-link {
+  font-size: 22px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -4286,6 +4290,10 @@ a.close.disabled {
   .modal-xl {
     max-width: 1140px; } }
 
+.skill-icon {
+  padding: 30px;
+}
+
 .tooltip {
   position: absolute;
   z-index: 1070;
@@ -5539,6 +5547,9 @@ button.bg-dark:focus {
 
 .w-75 {
   width: 75% !important; }
+
+.w-90 {
+  width: 90% !important; }
 
 .w-100 {
   width: 100% !important; }
@@ -7216,6 +7227,12 @@ h3 {
     background-color: #fff; }
   .divider-custom.divider-light .divider-custom-icon {
     color: #fff !important; }
+  .divider-custom.divider-black .divider-custom-line {
+    background-color: #000000;
+  }
+  .divider-custom.divider-black .divider-custom-icon {
+    color: #000000 !important;
+  }
 
 .btn-xl {
   padding: 1rem 1.75rem;
