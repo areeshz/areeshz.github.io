@@ -4712,10 +4712,23 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-image {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
   background-image: url('./../assets/img/atlanta.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.15);
 }
 
 .bg-primary {
